@@ -1,0 +1,24 @@
+package usmanali.kinarabakeryadmin;
+
+import android.content.Intent;
+import android.content.pm.ActivityInfo;
+import android.os.Bundle;
+import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
+
+public class Splash_Screen extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_splash__screen);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER_PORTRAIT);
+        new Handler().postDelayed(new Runnable() {
+            public void run() {
+                Intent i=new Intent(Splash_Screen.this,MainActivity.class);
+                startActivity(i);
+                finish();
+            }
+        }, 10000);
+    }
+    }

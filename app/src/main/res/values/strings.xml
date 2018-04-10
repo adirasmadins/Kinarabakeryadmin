@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Kinara bakery admin</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="Catorgeries">
+        <item>Select Catorgery</item>
+        <item>Rusks</item>
+        <item>Breads &amp; Buns</item>
+        <item>Deserts</item>
+        <item>Methai</item>
+        <item>Grocery</item>
+        <item>Fast Food</item>
+    </string-array>
+    <string name="title_activity_show_orders_">Current Orders</string>
+    <string name="title_activity_show_order_details">Order Details</string>
+</resources>

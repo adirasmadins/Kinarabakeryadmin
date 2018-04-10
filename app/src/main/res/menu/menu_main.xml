@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="usmanali.kinarabakeryadmin.MainActivity">
+    <item
+        android:id="@+id/login"
+        android:orderInCategory="100"
+        android:title="LOG IN"
+        app:showAsAction="always" />
+</menu>
